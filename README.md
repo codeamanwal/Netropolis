@@ -1,5 +1,7 @@
 NETROPOLIS QUEST PLATFORM
 
+Live Link - https://netropolis.vercel.app/
+
 Introduction
 
 Netropolis is a platform designed to address labor shortages in rural areas by connecting users interested in experiencing rural life with local labor shortage tasks. The platform offers a package of quests that include leisure activities, local events, and labor tasks, providing users with an opportunity to actively engage in local communities like an RPG game.
