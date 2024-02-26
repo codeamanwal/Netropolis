@@ -1,0 +1,45 @@
+.slider-container {
+    overflow: hidden; /* Hide overflow */
+    width: 100%; /* Adjust to your container width */
+    
+  }
+.homepage{
+  background-color: rgb(255, 240, 181);
+}
+
+.slider {
+    display: flex; /* Arrange images in a row */
+    gap: 10px;
+    transition: transform 1s ease; /* Smooth transition */
+}
+
+.slide {
+    width: 100%; /* Each slide occupies the full container width */
+    flex-shrink: 0; /* Prevent image from shrinking */
+  }
+
+h1{
+  margin-bottom: 0px;
+  
+}
+h3{
+  font-weight: normal;
+  margin: 0px;
+}
+p{
+  margin-left: 10px;
+  text-align: left;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid;
+  background-color: rgb(249, 218, 223);
+}
+
+
+

@@ -1,0 +1,70 @@
+/* QuestCard.css */
+
+.quest-card-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  }
+  
+  .quest-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: 16px; /* Add margin between cards */
+    margin-bottom: 16px; /* Add margin between rows */
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
+    width: 300px; /* Set a fixed width for each card */
+  }
+  
+  .quest-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .quest-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  .quest-card p {
+    margin-bottom: 8px;
+  }
+  
+  .quest-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .quest-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quest-card .button-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  
+  /* QuestCard.css */
+
+.quest-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+  }
+  
+  /* .quest-card {
+    width: 200px;
+    height: 300px; 
+    margin: 10px; 
+    perspective: 1000px;
+  } */
+  
+
+ 
+  

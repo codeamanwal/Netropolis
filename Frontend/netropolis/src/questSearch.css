@@ -1,0 +1,118 @@
+/* QuestSearchForm.css
+
+.quest-search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quest-search-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .quest-search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quest-search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quest-results {
+    margin-top: 20px;
+  }
+  
+  .quest-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quest-item h3 {
+    margin-top: 0;
+    color: #007bff;
+  }
+   */
+
+   /* QuestSearchForm.css */
+
+/* QuestSearchForm.css */
+
+.quest-search-container {
+    text-align: center; /* Center-align the content */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  .search-header {
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+  
+  .quest-search-input {
+    padding: 10px; /* Add padding to the input field */
+    margin-right: 10px; /* Add right margin for spacing */
+    border: 2px solid #ccc; /* Add border to the input field */
+    border-radius: 6px; /* Add border radius */
+    font-size: 16px; /* Set font size */
+    margin-bottom: 10px;
+  }
+  
+  .quest-search-button {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 6px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    font-size: 16px; /* Set font size */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .quest-search-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .loading-spinner {
+    margin-top: 20px; /* Add top margin */
+    width: 20px; /* Set spinner width */
+    height: 20px; /* Set spinner height */
+    border: 4px solid #f3f3f3; /* Set spinner border */
+    border-top: 4px solid #3498db; /* Set spinner top border color */
+    border-radius: 50%; /* Add border radius for a circle shape */
+    animation: spin 1s linear infinite; /* Add spinner animation */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .search-results {
+    margin-top: 20px; /* Add top margin */
+  }
+  
+  .quest-item {
+    background-color: #f9f9f9; /* Set background color for quest items */
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 6px; /* Add border radius */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add bottom margin for spacing between quest items */
+  }
+  
+  .quest-item h3 {
+    margin-top: 0; /* Reset margin for quest item title */
+    color: #007bff; /* Set color for quest item title */
+  }
+  
